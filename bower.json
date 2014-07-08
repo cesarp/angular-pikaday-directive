@@ -1,0 +1,27 @@
+{
+  "name": "pikaday-directive",
+  "version": "0.0.1",
+  "authors": [
+    "Cesar Perez <cesar.alberto.perez@gmail.com>"
+  ],
+  "description": "AngularJS Directive for Pikaday date picker",
+  "main": "src/pikaday-directive.js",
+  "keywords": [
+    "pikaday",
+    "angularjs",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.19",
+    "pikaday": "~1.2.0",
+    "moment": "~2.7.0"
+  }
+}
