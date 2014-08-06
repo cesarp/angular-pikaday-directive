@@ -25,7 +25,7 @@
 
                     ngModel.$render = function () {
                         if (ngModel.$viewValue) {
-                            picker.setMoment(moment(ngModel.$viewValue, inputFormat));
+                            picker.setMoment(moment(ngModel.$viewValue, inputFormat), true);
                         }
                     };
 
